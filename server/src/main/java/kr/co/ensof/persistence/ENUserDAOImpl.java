@@ -1,6 +1,6 @@
-package kr.co.ensof.issue.persistence;
+package kr.co.ensof.persistence;
 
-import kr.co.ensof.issue.model.ENUser;
+import kr.co.ensof.model.ENUser;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

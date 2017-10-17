@@ -1,6 +1,6 @@
-package kr.co.ensof.issue.persistence;
+package kr.co.ensof.persistence;
 
-import kr.co.ensof.issue.model.ENUser;
+import kr.co.ensof.model.ENUser;
 
 /**
  * Created by SungHere on 2017-06-14.

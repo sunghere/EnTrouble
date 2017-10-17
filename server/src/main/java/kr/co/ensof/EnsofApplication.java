@@ -1,4 +1,4 @@
-package kr.co.ensof.issue;
+package kr.co.ensof;
 
 /*@SpringBootApplication
 @EnableScheduling

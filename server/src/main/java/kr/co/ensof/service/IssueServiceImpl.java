@@ -1,7 +1,7 @@
-package kr.co.ensof.issue.Service;
+package kr.co.ensof.service;
 
-import kr.co.ensof.issue.model.Issue;
-import kr.co.ensof.issue.persistence.IssueDAO;
+import kr.co.ensof.model.Issue;
+import kr.co.ensof.persistence.IssueDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

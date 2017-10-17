@@ -1,4 +1,4 @@
-package kr.co.ensof.issue.help;
+package kr.co.ensof.help;
 
 import javax.crypto.Cipher;
 import java.io.UnsupportedEncodingException;

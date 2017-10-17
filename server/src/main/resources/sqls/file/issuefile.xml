@@ -5,16 +5,16 @@
 <mapper namespace="IssueFile">
 
     <insert id="upload"
-            parameterType="kr.co.ensof.issue.model.IssueFile">
+            parameterType="kr.co.ensof.model.IssueFile">
         INSERT INTO ISSUEFILE (pseq, filename, path, rdate) VALUES
             (#{pseq}, #{filename}, #{path}, DATE_FORMAT(NOW(), '%Y-%m-%d'))
     </insert>
-    <delete id="remove" parameterType="kr.co.ensof.issue.model.IssueFile">
+    <delete id="remove" parameterType="kr.co.ensof.model.IssueFile">
         DELETE FROM ISSUEFILE
         WHERE seq = #{seq}
     </delete>
-    <select id="select" parameterType="kr.co.ensof.issue.model.IssueFile"
-            resultType="kr.co.ensof.issue.model.IssueFile">
+    <select id="select" parameterType="kr.co.ensof.model.IssueFile"
+            resultType="kr.co.ensof.model.IssueFile">
 
         SELECT
             seq,
@@ -26,8 +26,8 @@
         WHERE pseq = #{pseq}
         ORDER BY seq
     </select>
-    <select id="selectAll" parameterType="kr.co.ensof.issue.model.IssueFile"
-            resultType="kr.co.ensof.issue.model.IssueFile">
+    <select id="selectAll" parameterType="kr.co.ensof.model.IssueFile"
+            resultType="kr.co.ensof.model.IssueFile">
 
         SELECT
             seq,

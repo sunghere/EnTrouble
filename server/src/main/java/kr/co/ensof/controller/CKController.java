@@ -1,4 +1,4 @@
-package kr.co.ensof.issue.controller;
+package kr.co.ensof.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

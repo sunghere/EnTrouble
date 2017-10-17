@@ -1,8 +1,8 @@
-package kr.co.ensof.issue.controller;
+package kr.co.ensof.controller;
 
-import kr.co.ensof.issue.Service.EmailService;
-import kr.co.ensof.issue.help.AjaxResult;
-import kr.co.ensof.issue.model.Email;
+import kr.co.ensof.service.EmailService;
+import kr.co.ensof.help.AjaxResult;
+import kr.co.ensof.model.Email;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

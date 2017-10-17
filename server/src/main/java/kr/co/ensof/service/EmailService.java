@@ -1,6 +1,6 @@
-package kr.co.ensof.issue.Service;
+package kr.co.ensof.service;
 
-import kr.co.ensof.issue.model.Email;
+import kr.co.ensof.model.Email;
 import net.sargue.mailgun.Configuration;
 import net.sargue.mailgun.MailBuilder;
 import org.springframework.beans.factory.annotation.Value;

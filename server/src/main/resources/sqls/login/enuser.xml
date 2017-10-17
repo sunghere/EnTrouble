@@ -4,8 +4,8 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="ENUser">
 
-    <select id="login" parameterType="kr.co.ensof.issue.model.ENUser"
-            resultType="kr.co.ensof.issue.model.ENUser">
+    <select id="login" parameterType="kr.co.ensof.model.ENUser"
+            resultType="kr.co.ensof.model.ENUser">
         SELECT
             ID,
             NAME,
@@ -16,7 +16,7 @@
             ID = #{id} AND PWD = #{pwd}
     </select>
 
-    <update id="update" parameterType="kr.co.ensof.issue.model.ENUser">
+    <update id="update" parameterType="kr.co.ensof.model.ENUser">
 
         UPDATE ENUSER
         SET PWD = #{pwd}
@@ -24,14 +24,14 @@
 
     </update>
 
-    <update id="changes" parameterType="kr.co.ensof.issue.model.ENUser">
+    <update id="changes" parameterType="kr.co.ensof.model.ENUser">
 
         UPDATE ENUSER
         SET POSITION = #{position}
         WHERE ID = #{id}
 
     </update>
-    <insert id="regi" parameterType="kr.co.ensof.issue.model.ENUser">
+    <insert id="regi" parameterType="kr.co.ensof.model.ENUser">
 
         INSERT INTO ENUSER (id, email, name, position, pwd) VALUES (#{id}, #{email}, #{name}, #{position}, #{pwd});
 

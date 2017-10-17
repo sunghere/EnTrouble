@@ -1,4 +1,4 @@
-package kr.co.ensof.issue.model;
+package kr.co.ensof.model;
 
 import java.io.Serializable;
 
